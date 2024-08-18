@@ -10,7 +10,7 @@ type MyInfoType = {
     salary : number
 }
 
-const myInfo : MyInfoType = {
+const theinfo : MyInfoType = {
     name : 'Tanbir',
     age : 27,
     salary : 0
@@ -25,7 +25,7 @@ type MandatoryType = {
     salary : number
 }
 
-const BuyCars = <T extends MandatoryType>(Info: T) => {
+const TheCars = <T extends MandatoryType>(Info: T) => {
     const car = 'BMW'
     const newData = {...Info,car}
     return newData
@@ -33,4 +33,3 @@ const BuyCars = <T extends MandatoryType>(Info: T) => {
 }
 
 
-const result = BuyCars(myInfo)

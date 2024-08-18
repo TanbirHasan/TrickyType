@@ -27,4 +27,4 @@ type d = a1 extends null
 
   type CheckProperty<T,K> = K extends keyof Manush ? true : false;
 
-  type CheckOne = CheckProperty<Manush,'wife1'>
+  type CheckOne = CheckProperty<Manush,'car1'>

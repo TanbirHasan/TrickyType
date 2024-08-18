@@ -30,7 +30,7 @@ rectangulerArea.height
 
 
 
-type A = Area['height'] // looked up types
+type AB = Area['height'] // looked up types
 
 type B = keyof Area
 

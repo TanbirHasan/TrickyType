@@ -13,6 +13,7 @@ const makePromise = ():Promise<string> => {
     })
 }
 
+
 const resultPromise = async ():Promise<string> => {
     const data = await makePromise()
 
